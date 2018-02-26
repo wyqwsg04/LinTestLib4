@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target    = '8.0'
   s.ios.vendored_framework   = 'LinTestLib.framework'
 
-  s.dependency "JSONKit", "~> 1.4"
+#s.dependency "JSONKit", "~> 1.4"
   s.dependency "AFNetworking"
 
 end
